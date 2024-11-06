@@ -27,11 +27,11 @@ FN:9,multiply
 FN:13,divide
 FNF:4
 FNH:1
-FNDA:1,add
+FNDA:2,add
 FNDA:0,subtract
 FNDA:0,multiply
 FNDA:0,divide
-DA:2,1
+DA:2,2
 DA:6,0
 DA:10,0
 DA:14,0
