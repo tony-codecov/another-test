@@ -8,6 +8,10 @@ test("adds 1 + 7 to equal 8", () => {
   expect(add(1, 7)).toBe(8);
 });
 
+test("adds 1 + 5 to equal 6", () => {
+  expect(add(1, 5)).toBe(6);
+});
+
 // test('subtracts 4 - 1 to equal 3', () => {
 //     expect(subtract(4, 1)).toBe(3);
 // });....
