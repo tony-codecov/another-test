@@ -4,13 +4,9 @@ test("adds 1 + 2 to equal 3", () => {
   expect(add(1, 2)).toBe(3);
 });
 
-test("adds 1 + 5 to equal 6", () => {
-  expect(add(1, 5)).toBe(6);
+test('subtracts 4 - 1 to equal 3', () => {
+    expect(subtract(4, 1)).toBe(3);
 });
-
-// test('subtracts 4 - 1 to equal 3', () => {
-//     expect(subtract(4, 1)).toBe(3);
-// });....
 
 // test('multiplies 5 * 6 to equal 30', () => {
 //     expect(multiply(5, 6)).toBe(30);
