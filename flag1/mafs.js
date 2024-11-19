@@ -6,9 +6,9 @@ function subtract(a, b) {
   return a - b;
 }
 
-function sum(...args) {
-  return args.reduce((acc, curr) => acc + curr, 0);
-}
+// function sum(...args) {
+//   return args.reduce((acc, curr) => acc + curr, 0);
+// }
 
 function multiply(a, b) {
   return a * b;
@@ -22,4 +22,4 @@ function divide(a, b) {
   }
 }
 
-module.exports = { add, subtract, sum, multiply, divide };
+module.exports = { add, subtract, multiply, divide };
