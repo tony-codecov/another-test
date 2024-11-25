@@ -1,4 +1,4 @@
-const { add, subtract, multiply, divide } = require("./mafs");
+const { add, subtract, multiply, divide, sum } = require("./mafs");
 
 test("adds 1 + 2 to equal 3", () => {
   expect(add(1, 2)).toBe(3);
