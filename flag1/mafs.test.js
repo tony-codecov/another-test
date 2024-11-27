@@ -23,3 +23,7 @@ test('divides 8 / 2 to equal 4', () => {
 test('sums 1 + 2 + 3 + 4 to equal 10', () => {
     expect(sum(1, 2, 3, 4)).toBe(10);
 });
+
+test('sums 1 + 2 + 3 + 4 to equal 10', () => {
+    expect(sum()).toBe(0);
+});

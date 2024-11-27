@@ -19,6 +19,7 @@ function divide(a, b) {
 }
 
 function sum(...args) {
+  if (args.length === 0) return 0;
   return args.reduce((acc, curr) => acc + curr, 0);
 }
 
