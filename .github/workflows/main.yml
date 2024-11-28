@@ -11,6 +11,6 @@ jobs:
         uses: actions/setup-node@v4
       - run: npm i
       - run: npm run testAll
-      - run: codecov-action@v5
+      - run: codecov/codecov-action@v5
 
     
