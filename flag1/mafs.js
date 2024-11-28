@@ -18,8 +18,9 @@ function divide(a, b) {
   }
 }
 
-// function sum(...args) {
-//   return args.reduce((acc, curr) => acc + curr, 0);
-// }
+function sum(...args) {
+  if (args.length === 0) return 0;
+  return args.reduce((acc, curr) => acc + curr, 0);
+}
 
-module.exports = { add, subtract, multiply, divide };
+module.exports = { add, subtract, multiply, divide, sum };
