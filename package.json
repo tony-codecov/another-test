@@ -10,7 +10,7 @@
     "testFrontend": "jest ./frontend",
     "testWords": "jest ./words",
     "testTemples": "jest ./temples",
-    "testAll": "jest --watchAll"
+    "testAll": "jest"
   },
   "repository": {
     "type": "git",
