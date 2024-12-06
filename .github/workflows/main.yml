@@ -12,5 +12,5 @@ jobs:
       - run: npm i
       - run: npm run testAll
       - uses: codecov/codecov-action@v4
-
-    
+        with:
+          use_legacy_upload_endpoint: true
