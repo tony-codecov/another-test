@@ -13,4 +13,5 @@ jobs:
       - run: npm run testAll
       - uses: codecov/codecov-action@v5
         with:
+          token: ${{ secrets.CODECOV_TOKEN }}
           use_legacy_upload_endpoint: true
