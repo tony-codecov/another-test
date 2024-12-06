@@ -24,3 +24,4 @@ function sum(...args) {
 }
 
 module.exports = { add, subtract, multiply, divide, sum };
+
