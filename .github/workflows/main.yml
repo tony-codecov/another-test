@@ -14,4 +14,4 @@ jobs:
       - run: npm run testAll
       - uses: codecov/codecov-action@v5
         with:
-          use_oidc: false
+          use_oidc: true
