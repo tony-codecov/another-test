@@ -6,7 +6,6 @@ jobs:
     name: Coverage
     permissions:
       id-token: write
-      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Setup node
@@ -15,4 +14,4 @@ jobs:
       - run: npm run testAll
       - uses: codecov/codecov-action@v5
         with:
-          use_oidc: true
+          use_oidc: false
