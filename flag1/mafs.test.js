@@ -24,6 +24,6 @@ test('sums 1 + 2 + 3 + 4 to equal 10', () => {
     expect(sum(1, 2, 3, 4)).toBe(10);
 });
 
-test('sums 1 + 2 + 3 + 4 to equal 10', () => {
+test('sums none to equal 0', () => {
     expect(sum()).toBe(0);
 });
